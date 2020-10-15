@@ -2,3 +2,34 @@
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
 
+
+.container{
+    height: 100%;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.corona{
+    grid-column: 2/3;
+    grid-row: 1/1;
+    align-self: center;
+    justify-content: center;
+}
+
+p{
+    grid-column: 2/3;
+    grid-row: 2/2;
+    align-self: center;
+
+}
+
+.imagen{
+    grid-column: 2/4;
+    grid-row: 3/3;
+    align-self: center;
+}
+
