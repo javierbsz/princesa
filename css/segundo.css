@@ -4,7 +4,7 @@
 
 header{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
 
@@ -19,7 +19,8 @@ p{
 }
 
 .estrella{
-    grid-column: 2/4;
+    grid-column: 3/4;
     grid-row: 3/3;
+    align-self: center;
     
 }
