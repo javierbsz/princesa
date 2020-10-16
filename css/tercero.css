@@ -1,0 +1,64 @@
+/* escritorio 1440px */
+/* poner las imagenes en fondo de la pagina con cover para que tenga mejor resultado */
+
+.container{
+    width: 1400px;
+    height: 100vh;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px 150px 150px ;
+
+    height: 100%;
+    width: 100vw;
+    background-image: url(../img/svg/star-wars-squadrons-zoom-background\ 1.svg);
+    
+}
+
+.logo{
+    grid-column: 1/2;
+    grid-row: 1/1;
+
+}
+
+.banner1{
+    grid-column: 1/3;
+    grid-row: 2/2;
+}
+.icono1{
+    grid-column: 3/4;
+    grid-row: 2/2;
+}
+
+.banner2{
+    grid-column: 1/2;
+    grid-row: 3/3;
+}
+
+.icono2{
+    grid-column: 3/4;
+    grid-row: 3/3;
+}
+
+.banner3{
+    grid-column: 1/2;
+    grid-row: 4/4;
+}
+
+.icono3{
+    grid-column: 3/4;
+    grid-row: 4/4;
+
+}
+
+.banner4{
+    grid-column: 1/2;
+    grid-row: 5/5;
+}
+
+.icono4{
+    grid-column: 3/4;
+    grid-row: 5/5;
+}
