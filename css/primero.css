@@ -13,7 +13,7 @@ header{
     grid-template-rows: 1fr 1fr 1fr;
 }
 
-.corona{
+.disney{
     grid-column: 2/3;
     grid-row: 1/1;
     align-self: center;
