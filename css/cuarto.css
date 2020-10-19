@@ -1,0 +1,130 @@
+.container{
+    height: 100vh;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+}
+
+.foto1{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    filter: grayscale();
+
+}
+
+.foto2{
+    grid-column: 2/2;
+    grid-row: 3/3;
+    filter: grayscale();
+
+}
+
+.foto3{
+    grid-column: 2/2;
+    grid-row: 4/4;
+    filter: grayscale();
+
+}
+
+.foto4{
+    grid-column: 3/3;
+    grid-row: 2/2;
+    filter: grayscale();
+
+}
+
+.foto5{
+    grid-column: 4/4;
+    grid-row: 2/2;
+    filter: grayscale();
+
+}
+
+.foto6{
+    grid-column: 5/5;
+    grid-row: 2/2;
+    filter: grayscale();
+
+}
+
+.foto7{
+    grid-column: 5/5;
+    grid-row: 3/3;
+    filter: grayscale();
+
+}
+
+.foto8{
+    grid-column: 5/5;
+    grid-row: 4/4;
+    filter: grayscale();
+
+}
+
+.logo{
+    grid-column: 3/5;
+    grid-row: 3/5;
+}
+
+/*transicion de agrandar la imagen de 1segundo scala el doble cuando la clicas se pone al centro al clicarla y le quitas el filtro de color gris y obtiene el colo normal */
+
+.foto1:hover{
+    transition: 1s;
+    transform: scale(2);
+    transform-origin: center;
+    filter: none;
+}
+
+.foto2:hover{
+    transition: 1s;
+    transform: scale(2);
+    transform-origin: center;
+    filter: none;
+
+}
+.foto3:hover{
+    transition: 1s;
+    transform: scale(2);
+    transform-origin: center;
+    filter: none;
+
+}
+.foto4:hover{
+    transition: 1s;
+    transform: scale(2);
+    transform-origin: center;
+    filter: none;
+
+}
+.foto5:hover{
+    transition: 1s;
+    transform: scale(2);
+    transform-origin: center;
+    filter: none;
+
+}
+
+.foto6:hover{
+    transition: 1s;
+    transform: scale(2);
+    transform-origin: center;
+    filter: none;
+
+}
+.foto7:hover{
+    transition: 1s;
+    transform: scale(2);
+    transform-origin: center;
+    filter: none;
+
+}
+.foto8:hover{
+    transition: 1s;
+    transform: scale(2);
+    transform-origin: center;
+    filter: none;
+
+}

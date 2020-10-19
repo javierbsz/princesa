@@ -58,12 +58,20 @@ body {
   .nav-link3:hover ~ .pantallazo {
     grid-column: 2/3;
     grid-row: 1/5;
+    
     width: 100%;
     background-image: url(../img/captura3.JPG);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
   }
-  .nav-link4:hover figure {
+  .nav-link4:hover ~ .pantallazo {
+    grid-column: 2/3;
+    grid-row: 1/5;
 
+    width: 100%;
+    background-image: url(../img/captura4.JPG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
   }
